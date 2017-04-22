@@ -2,3 +2,4 @@
 # комментарий
 /logs
 /vendor
+/application/config/database.php

@@ -1,22 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 3.0 License
-Name       : Accumen
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20120712
-Modified by VitalySwipe
--->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>ОЛОЛОША TEAM</title>
+    <title>mvc_project</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <script src="/js/jquery-1.6.2.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -40,7 +31,7 @@ Modified by VitalySwipe
 <div id="wrapper">
     <div id="header">
         <div id="logo">
-            <a href="/">ОЛОЛОША</span> <span class="cms">TEAM</span></a>
+            <a href="/">MVC</span> <span class="cms">project</span></a>
         </div>
         <div id="menu">
             <ul>
@@ -60,14 +51,14 @@ Modified by VitalySwipe
                     «Сайт, как живой организм, изменяется и развивается.
                     Нельзя сразу написать идеальный вариант и на этом откланяться - это утопия»
                 </p>
-                <p align="justify" class="quote"><!-- &copy; Vitaly Swipe -->
+                <p align="justify" class="quote">
                     «Все должно быть очень просто, как текстовый файл и при этом функционально
                     и тогда пользователи от нас уйдут»
                 </p>
                 <p align="justify" class="quote">
                     «Критика - это когда критик объясняет автору, как сделал бы он, если бы умел»
                 </p>
-                <p align="justify" class="quote"><!-- &copy; Vitaly Swipe -->
+                <p align="justify" class="quote">
                     «Сумасшедшим становиться тот, кто попытался разобраться в этом сумасшедшем мире»
                 </p>
                 <p align="justify" class="quote">
@@ -88,13 +79,6 @@ Modified by VitalySwipe
         <div id="content">
             <div class="box">
                 <?php include '../application/views/'.$content_view; ?>
-                <!--
-                <h2>Welcome to Accumen</h2>
-                <img class="alignleft" src="images/pic01.jpg" width="200" height="180" alt="" />
-                <p>
-                    This is <strong>Accumen</strong>, a free, fully standards-compliant CSS template by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>. The images used in this template are from <a href="http://fotogrph.com/">Fotogrph</a>. This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attributions 3.0</a> license, so you are pretty much free to do whatever you want with it (even use it commercially) provided you keep the footer credits intact. Aside from that, have fun with it :)
-                </p>
-                -->
             </div>
             <br class="clearfix" />
         </div>
@@ -104,9 +88,9 @@ Modified by VitalySwipe
         <div id="page-bottom-sidebar">
             <h3>Наши контакты</h3>
             <ul class="list">
-                <li class="first">icq: 199199538</li>
-                <li>skypeid: vitalyswipe</li>
-                <li class="last">email: vitalyswipe@gmail.com</li>
+                <li class="first">icq: 123456789</li>
+                <li>skypeid: vitaliy</li>
+                <li class="last">email: vitaliy@gmail.com</li>
             </ul>
         </div>
         <div id="page-bottom-content">
@@ -138,7 +122,7 @@ Modified by VitalySwipe
     </div>
 </div>
 <div id="footer">
-    <a href="/">ОЛОЛОША TEAM</a> &copy; 2012</a>
+    <a href="/">MVC project</a> &copy; 2017</a>
 </div>
 </body>
 </html>

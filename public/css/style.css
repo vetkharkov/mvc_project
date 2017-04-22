@@ -35,7 +35,7 @@ body,input {
 	font-family: Kreon, serif;
 }
 
-br.clearfix {
+.clearfix {
 	clear: both;
 }
 
