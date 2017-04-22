@@ -10,7 +10,9 @@ class Session
 
     private function __construct()
     {
-        session_start();
+        if(empty($_SESSION)){
+            session_start();
+        }
     }
 
     public static function setValue($name, $val)

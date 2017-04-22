@@ -30,7 +30,9 @@ class Flash
         if (Session::existsValue($key)) {
             $message = Session::getValue($key);
             Session::deleteValue($key);
-//            unset ($_SESSION);
+//            session_unset();//удаляет все сессии
+//            session_destroy();
+//            unset ($_SESSION);//невозможно будет создать сессии в будущем
         }
         return $message;
     }
